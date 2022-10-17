@@ -1,0 +1,15 @@
+h1, p {
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+.sitesfav li:hover{
+    background-color: cornflowerblue;
+}
+
+.sitesfav li:active{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
