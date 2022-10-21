@@ -38,6 +38,17 @@ if (num1 >= num2 && num1 >= num3){
 }else if (num3 >= num1 && num3 >= num2){
     console.log(num3);
 }else{
-    console.log("brain exploding")
+    console.log("brain exploding");
 }
 
+//if else positivo,negativo,zero
+
+const num77 = 5;
+
+if (num77 > 0){
+    console.log("positive");
+} else if(num77 < 0 ){
+    console.log("negative");
+}else{
+    console.log("It's zero.")
+}
