@@ -1,0 +1,53 @@
+1
+
+mkdir unix_tests_skills
+
+2
+
+cat > skills2.txt
+Internet
+cat >>
+Unix
+Bash
+
+3
+
+cat >> skills2.txt
+(5 valores novos)
+sort skills2.txt
+
+4
+
+wc -l skills2.txt
+
+5
+
+cat skills2.txt | sort | wc -l > top_skills.txt
+
+6
+
+cat > phrases2.txt
+frase
+frase
+
+7
+
+grep Br phrases2.txt | wc -l
+
+8
+
+grep -iv phrases2.txt | wc -l
+
+9
+
+cat >> phrases2.txt
+
+10
+
+cat phrases2.txt ../../1.1/unix_tests_search/countries.txt > bunch_of_things.txt
+
+11
+
+sort bunch_of_things.txt > novo.txt
+rm bunch_of_things.txt
+mv novo.txt bunch_of_things.txt

@@ -1,0 +1,73 @@
+Trybe
+Desenvolvimento Web
+Módulo: Fundamentos
+Unix & Bash
+Dia 01: Unix & Bash - Parte 1
+Exercícios - criação de arquivos e diretórios
+
+# exercicio 1
+
+  mkdir unix_tests
+  cd unix_tests
+  
+  # exercicio 2
+  
+  touch trybe.txt
+  
+  # exercicio 3
+  
+  cp trybe.txt trybe_backup.txt
+  
+  # exercicio 4
+  
+  mv trybe.txt trybe2.txt
+  
+  # exercicio 5
+  
+  mkdir backup
+  
+  # exercicio 6
+  
+  mv trybe_backup.txt backup
+  
+  # exercicio 7
+  
+  mkdir backup2
+  
+  # exercicio 8
+  
+  mv backup/trybe_backup.txt backup2
+  
+  # exercicio 9
+  
+  rmdir backup
+Ou se a pasta não estiver vazia:
+  rm -rf backup
+  
+  # exercicio 10
+  
+  mv backup2 backup
+  
+  # exercicio 11
+  
+  pwd
+  
+  # exercicio 12
+  
+  rm -rd backup
+  
+  # exercicio 13
+  
+  clear
+  
+  # exercicio 14
+  
+  head -n 5 skills.txt
+  
+  # exercicio 15
+  
+  tail -n 4 skills.txt
+  
+  # exercicio 16
+  
+  rm *.txt

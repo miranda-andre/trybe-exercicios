@@ -1,0 +1,51 @@
+# Exercicio 1
+
+	cat
+
+# Exercicio 2
+
+	less ('Space' p/ prox pag, 'Q' p/ sair)
+
+# Exercicio 3
+
+	less Zambia( ' / ' para pesquisar por palavras)
+
+# Exercicio 4
+
+	grep Brazil
+
+# Exercicio 5
+
+	grep -i brazil
+
+# Exercicio 6
+
+(criar arquivo)
+
+# Exercicio 7
+
+	grep -iv Fox 'arquivo'
+
+# Exercicio 8
+
+	wc -w 'arquivo' (wc = word count, -w = word)
+
+# Exercicio 9
+
+	wc -l 'arquivo' (wc = word count, -l = line)
+
+# Exercicio 10
+
+	ls
+
+# Exercicio 11
+
+	ls *.txt
+
+# Exercicio 12
+
+	ls *.tbt *.txt
+
+# Exercicio 13
+
+	man ls
