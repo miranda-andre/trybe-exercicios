@@ -64,6 +64,8 @@ myWebpage.addEventListener('mouseout', (event) => {
     event.target.style.color = "white";
 });
 
+
+
 // Segue abaixo um exemplo do uso de event.target:
 
 
