@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Concurso TrybeTrip</h1>
+    <form action="" method="get" enctype="multipart/form-data" id="form ">
+      <section>
+        <label for="full-name">nome: </label>
+        <input type="text" name="fullname" id="fullName" required />
+      </section>
+      <section>
+        <label for="email">email: </label>
+        <input type="email" name="e-mail" id="email" required />
+      </section>
+      <section>
+        <p>Destino Preferido:</p>
+        <label for="trip1">
+          <input type="radio" name="trip" id="trip1" />Cidade
+        </label>
+        <label for="trip2">
+          <input type="radio" name="trip" id="trip2" />Campo
+        </label>
+        <label for="trip3">
+          <input type="radio" name="trip" id="trip3" />Praia
+        </label>
+        <label for="trip4">
+          <input type="radio" name="trip" id="trip4" />Montanhas
+        </label>
+      </section>
+      <section>
+        <p>
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </p>
+        <textarea
+          name="textarea"
+          id="reason"
+          cols="64"
+          rows="10"
+          placeholder="Digite aqui"
+        ></textarea>
+      </section>
+      <section>
+        <label for="data">Qual a melhor data para realizar sua viagem?</label>
+        <input type="date" name="dataViagem" id="data" required />
+      </section>
+      <section>
+        <label>
+          <input type="checkbox" name="receberNoticia" id="cbxNotify" />
+          Gostaria de receber outras incríveis oportunidades oferecidas pela
+          Trybe?
+        </label>
+      </section>
+      <section>
+        <label>
+          <input type="checkbox" name="agreement" id="agreement" />
+          Concordo que imagens das minhas férias poderão ser usadas na
+          divulgação de concursos futuros.
+        </label>
+      </section>
+      <section>
+        <button type="submit" id="btnSubmit" disabled>Enviar</button>
+        <button type="reset" id="btnClear" disabled>Limpar</button>
+      </section>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
