@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 html {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.9em;
 }
 
@@ -38,28 +38,29 @@ header li {
   flex-direction: column;
   width: 20%;
   background-color: rgb(243, 234, 243);
-  padding:0 10px;
+  padding: 0 10px;
 }
 
 .main-content {
   display: flex;
   flex-direction: column;
   width: 80%;
+  padding: 50px;
   margin: 0 10px 0 10px;
   text-align: justify;
 }
 
-footer{
-    background-color: plum;
-    display: flex;
-    flex-flow: column;
-    margin: 2px 0 2px 0;
-    align-items: center;
-    text-align: center;
+footer {
+  background-color: plum;
+  display: flex;
+  flex-flow: column;
+  margin: 2px 0 2px 0;
+  align-items: center;
+  text-align: center;
 }
 footer p {
-    padding: 0;
-    margin: 5px 0;
+  padding: 0;
+  margin: 5px 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -86,12 +87,11 @@ footer p {
     background-color: lightcoral;
     font-size: small;
   }
-
 }
 
 @media screen and (min-width: 1000px) {
- body{
+  body {
     background-color: white;
     font-size: medium;
- }
+  }
 }
